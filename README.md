@@ -14,20 +14,20 @@ Whitespace characters are ignored, of course.
 ```ebnf
 equation = formula, "->", formula;
 formula = [term, "+"], term;
-term: [number], {term_member};
+term = [number], {term_member};
 
-term_member: 
+term_member =
     compound
     | element
     | ("(", term_member, ")")
 ;
 
-compound: {element};
-element: upper, [{lower}], [number];
+compound = {element};
+element = upper, [{lower}], [number];
 
-number: ? all digits, from 0-10 ?;
-upper: ? all uppercase letters ?;
-lower: ? all lowercase letters ?;
+number = ? all digits, from 0-10 ?;
+upper = ? all uppercase letters ?;
+lower = ? all lowercase letters ?;
 ```
 
 # Examples
