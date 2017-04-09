@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Water" type="CMakeRunConfiguration" factoryName="Application" folderName="Examples" singleton="true" PROGRAM_PARAMS="water.txt" WORKING_DIR="file://$PROJECT_DIR$/example" PASS_PARENT_ENVS_2="true" PROJECT_NAME="formula" TARGET_NAME="formula_debug" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="formula" RUN_TARGET_NAME="formula_debug">
+    <envs />
+    <method />
+  </configuration>
+</component>
